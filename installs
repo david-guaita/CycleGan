@@ -1,0 +1,5 @@
+conda create -n tensorflow-2.2 python=3.6
+pip install tensorflow-gpu==2.2
+conda install scikit-image tqdm
+conda install -c conda-forge oyaml
+pip install tensorflow-addons==0.10.0
